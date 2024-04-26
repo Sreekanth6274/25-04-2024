@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#app{
+    color: black;
+    font-weight: 600;
+    text-shadow: 3px 4px 4px white;
+    background-color: chartreuse;
+    text-align: center;
+}
+.count{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.app2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+button{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 20px;
+    color: rgb(246, 246, 247);
+    background-color: purple;
+}
+button:hover{
+    font-size: 20px;
+    transition: transform 2s;
+}
+#value{
+    margin: 10px;
+    font-weight: 900;
+}
+#app2{
+    padding: 15px;
+    margin: 10px;
+    font-size: large;
+}
+.counterapp{
+    background-color: chartreuse;
+}
